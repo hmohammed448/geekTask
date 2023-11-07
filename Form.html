@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- Form Created -->
+    <form action="">
+        <!-- Boundary of Form using fieldset Tag-->
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="fName">Firstname </label>
+            <input type="text" name="firstname" id="fName" size="15">
+            <br><br>
+
+            <label for="mName">Middlename: </label>
+            <input type="text" name="middlename" id="mName" size="15">
+            <br><br>
+
+            <label for="lName">Lastname: </label>
+            <input type="text" name="lastname" id="lName" size="15">
+            <br><br>
+
+            <label for="course">Course : </label>
+            <select name="" id="">
+                <option value="" selected>Course</option>
+                <option value="">BCA</option>
+                <option value="">BBA</option>
+                <option value="">B. Tech</option>
+                <option value="">MBA</option>
+                <option value="">MCA</option>
+                <option value="">M. Tech</option>
+            </select>
+            <br><br>
+
+            <label for="gender">Gender :<br>
+                <input type="radio" name="" id="gender"> Male <br>
+                <input type="radio" name="" id="gender"> Female <br>
+                <input type="radio" name="" id="gender"> Other <br>
+            </label>
+            <br>
+
+            <label for="dob">DOB
+                <input type="datetime-local" name="birth" id="dob">
+            </label>
+            <br>
+
+            <label for="phone">Phone : </label>
+            <input type="text" value="+91" disabled size="2">
+            <input type="text" maxlength="10" size="10">
+            <br><br>
+
+            <label for="add">Address</label><br>
+            <textarea name="" id="" cols="80" rows="5"></textarea>
+            <br><br>
+
+            <label for="email">Email:
+                <input type="email" name="emailId" id="email"> </label><br><br><br>
+
+            <label for="password">Password:
+                <input type="password" name="pass" id="password"> </label><br><br><br>
+
+            <label for="re-password">Re-type password:
+                <input type="password" name="pass" id="re-password"> </label><br><br>
+
+
+            <label for="terms">
+                <input type="checkbox" name="t&c" id="terms">Agree to terms and conditions</label> <br><br>
+
+            <label for="file">Choose File</label>
+            <input type="file" name="chooseFile" id="file"> <br><br>
+
+            <label for="colorchoice">Choose Color</label>
+            <input type="color" name="choose_color" id="colorchoice"> <br><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+            <!-- Form Boundary Closed by Closing fieldset Tag -->
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
