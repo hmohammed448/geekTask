@@ -18,13 +18,32 @@
         }
 
         .container {
-            max-width: 90%;
+            max-width: 100%;
         }
 
-        nav {
+        .navbarTop {
+            margin-top: 12px;
+            padding-top: 5px;
+            padding-bottom: 0.2em;
+            border-radius: 35px;
             background-color: rgba(14, 39, 48, 0.9);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.16);
-            margin-bottom: 3em;
+            margin-bottom: 4em;
+
+        }
+
+        .navbarTop:hover {
+            margin-left: auto;
+            margin-right: auto;
+            cursor: pointer;
+            background-color: transparent;
+            background: linear-gradient(144deg, #252525, #575656, #636262, #727272);
+        }
+
+        main {
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -32,7 +51,7 @@
 <body>
     <div class="container">
         <!-- <nav class="navbar bg-light"> -->
-        <nav class="navbar">
+        <nav class="navbarTop">
             <h1 class="gradient-text">Geekster Assignment</h1>
             <!-- <h1 class="rainbow-text">Geekster Assignment</h1> -->
         </nav>
@@ -54,8 +73,9 @@
             <button type="button" class="button-51"><a class="nav-link" href="cafe_menu.html">Cafe Menu</a></button>
             <button type="button" class="button-51"><a class="nav-link" href="Colored_markers.html">CSS Colored
                     Markers</a></button>
-            <button type="button" class="button-51"><a class="nav-link" href="smoothScroll.html">Smooth Scroll</a></button>
-            </main>
+            <button type="button" class="button-51"><a class="nav-link" href="smoothScroll.html">Smooth
+                    Scroll</a></button>
+        </main>
     </div>
 </body>
 
