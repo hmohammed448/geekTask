@@ -42,8 +42,8 @@
     background-color: #6DCFF6;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 68px) {
     .button-51 {
-        padding: 5px 22px;
+        padding: 3px 12px;
     }
 }
