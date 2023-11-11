@@ -7,12 +7,29 @@
 h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 90px;
-    font-weight: 800;
-    -webkit-text-stroke: 4px black;
+    font-size: 50px;
+    font-weight: 500;
     color: transparent;
     margin-top: 0;
     margin-bottom: 0;
+    /* new gradient */
+    background-image: linear-gradient(-90deg, #adfbda 0, #35c3ff 30%, #fda399 50%, #76d880 70%, #ebf38b 90%, #adfbda 100%);
+
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+
+    /* Stroke border */
+    -webkit-text-stroke: 2px rgb(52, 24, 79);
 }
 
 p {
