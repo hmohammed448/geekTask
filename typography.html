@@ -7,22 +7,45 @@
     <title>Typography</title>
     <link rel="stylesheet" href="css/typography.css">
     <style>
-        html{
+        html {
             scroll-behavior: smooth !important;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .close {
+                max-width: 80%;
+            }
+
+            .img-container img {
+                max-width: 390px;
+                height: 147px;
+                margin-left: 70px;
+            }
+            .img-container{
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
         }
     </style>
 </head>
 
 <body>
-    <main class="close mr-auto">
+    <main class="close">
         <div class="head">
             <h1>Typography in Design Systems
             </h1>
         </div>
-        <div class="img-container manual">
+        <div class="img-container">
             <img src="https://miro.medium.com/v2/resize:fit:720/1*O2y0S3eEMQQubPSx6JTmYA.png" class="mr-auto" alt="">
-        </div>
-        <div class="para mr-auto">
+        <!-- </div> -->
+        <!-- <div class="para mr-auto"> -->
             <p>Everyday digital interfaces include a rich variety of images, visualizations, and other pictures.
                 However, more than anything else, they are made of words. Oh so many words. As we equip teams to design
                 and code usable, consistent, beautiful interfaces using systems, it's essential that words depend on a
@@ -43,4 +66,5 @@
         </div>
     </main>
 </body>
+
 </html>
