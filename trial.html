@@ -5,48 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trial</title>
-    <!-- <link rel="stylesheet" href="/css/trial.css"> -->
+    <link rel="stylesheet" href="/css/trial.css">
     <style>
         html {
             scroll-behavior: smooth;
-        }
-
-        body {
-            content: "";
-            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-            opacity: -1;
-        }
-        div{
-            display: block;
-        }
-        #shadow {
-            background: rgba(0, 0, 0, 0.7);
-            height: 100vh vh;
         }
     </style>
 </head>
 
 <body>
-    <div id="shadow">
-
+    <!-- Black shade boundary starts -->
+    <div class="shadow">
+        <!-- Navigation  -->
         <div class="nav">
+            <!-- Logo Left side -->
             <aside style="width: 40%;" class="asidelogo">
                 <img src="img/cover/neftflix.png" style="justify-content: center;" class="asidelogo" alt="netflix_logo"
                     width="150" height="50">
             </aside>
+            
+            <!-- sigup Button Right side -->
             <aside class="asideRight" style="width: 60%;">
                 <button class="btnSignIn">Sign In</button>
                 <button class="btnSignIn">Register</button>
             </aside>
         </div>
-        <main>
+        <main class="main-mid">
             <h1>
                 Unlimited movies, TV shows and more.
             </h1>
-            <p>
+            <p style="margin: 13px;
+            font-weight: 400;
+            font-size: 28px !important;">
                 Watch anywhere. Cancel anytime.
             </p>
-            <p>
+            <p style="margin: 26px;
+            font-weight: 400; font-size: 23px !important;">
                 Ready to watch? Enter your email to create or restart your membership.
             </p>
         </main>
