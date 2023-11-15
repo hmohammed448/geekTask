@@ -13,13 +13,14 @@ body {
 }
 
 nav {
-    background-image: url(/img/bg_cover.jpg);
-    height: 300px;
-    width: 100%;
+    background: url(/img/bgimg/bg_cover.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 5px 0 5px 1px#000;
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 8px black;
+    margin-bottom: 40px;
 }
 
 nav input {
