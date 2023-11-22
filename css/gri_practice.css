@@ -1,0 +1,23 @@
+h1 {
+    color: #fff;
+    font-weight: bolder;
+    border: 2px solid transparent;
+    background-color: black;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    min-height: 50%;
+    border: 1px dashed red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div .img {
+    width: 9em;
+    height: 9em;
+    background-color: yellow;
+    margin: 0.5em 1em !important;
+}
