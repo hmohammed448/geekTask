@@ -29,6 +29,8 @@ body {
     padding-bottom: 1em;
     margin-right: 2em;
     margin-bottom: 2em;
+    /* https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg */
+    box-shadow: 2.5rem 3.75rem 3rem -3rem #48556A;
 }
 
 .box img {
@@ -87,6 +89,9 @@ body {
     width: 34em;
     background-color: #7541C8;
     color: #fff !important;
+    background-image: url(https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
 }
 
 
@@ -120,6 +125,5 @@ body {
     #box-5{
         position: relative;
         width: 34em;
-        /* height: auto; */
     }
 }
